@@ -9,11 +9,11 @@
 
 <h3>Preview</h3>
 <h4>Desktop</h4>
-<a href="https://github.com/julianastahelin/fetch-github-api"><img src="design/design-desktop.gif" alt="gif of project being displayed and used on desktop"></a>
+<a href="https://julianastahelin.github.io/fetch-github-api/"><img src="design/design-desktop.gif" alt="gif of project being displayed and used on desktop"></a>
 
 <h3>Link</h3>
 <ul>
-    <li>Live site URL: <a href="https://github.com/julianastahelin/fetch-github-api">https://github.com/julianastahelin/fetch-github-api</a></li>
+    <li>Live site URL: <a href="https://julianastahelin.github.io/fetch-github-api/">https://julianastahelin.github.io/fetch-github-api/</a></li>
     <li>GitHub API documentation: <a href="https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28">https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28</a></li>
 </ul>
 
