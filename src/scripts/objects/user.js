@@ -31,7 +31,6 @@ let user = {
                                     </a>   
                                 </li>`
         })
-    
     },
     setEvents(events) {
         if (events.length === 0) {
@@ -49,7 +48,6 @@ let user = {
     cleanEvents() {
         this.events = [];
     }
-    
 }
 
 export { user }

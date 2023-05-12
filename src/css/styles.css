@@ -166,10 +166,6 @@ main {
   display: none;
 }
 
-.container .profile-data .events { 
-  /* gap: 10px; */
-}
-
 .container .profile-data .events ul li { 
   padding-bottom: 10px;
 }
