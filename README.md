@@ -5,7 +5,7 @@
 <h2>Overview</h2>
 
 <h3>The project</h3>
-<p>Users can search for GitHub users by username. If a valid username is entered, user's profile information are displayed: name, profile picture, bio description and up to 10 repositories. By clicking on name user is redirected to profile on GitHub, as well as clicking on repositories redirects user to repository's page on GitHub.</p>
+<p>Users can search for GitHub users by username. If a valid username is entered, user's profile information are displayed: name, profile picture, bio description, up to 10 repositories and up to 10 create and/or push events. Under each repository are shown its total counts of forks, stars and watches and the programming language (if any). By clicking on name user is redirected to profile on GitHub, as well as clicking on repositories redirects user to repository's page on GitHub.</p>
 
 <h3>Preview</h3>
 <h4>Desktop</h4>
