@@ -18,19 +18,17 @@ let user = {
         this.following = gitHubUser.following;
     },
     setRepositories(repositories) {
-        repositories.forEach(repo => {
-            this.repositories += `<li>
-                                    <a href='${repo.html_url}' target="_blank">
-                                        ${repo.name}
-                                        <ul class="repo-info">
-                                            <li>🍴${repo.forks_count}</li>
-                                            <li>⭐${repo.stargazers_count}</li>
-                                            <li>👀${repo.watchers_count}</li>
-                                            <li>🧑🏽‍💻${repo.language ?? ''}</li>
-                                        </ul>
-                                    </a>   
-                                </li>`
+        let reposList = repositories.map(function(repo) {   
+            return {
+                url: repo.html_url,
+                name: repo.name,
+                forks: repo.forks_count,
+                stars: repo.stargazers_count,
+                watchers: repo.watchers_count,
+                language: repo.language
+            }
         })
+        this.repositories = reposList;
     },
     setEvents(events) {
         if (events.length === 0) {
